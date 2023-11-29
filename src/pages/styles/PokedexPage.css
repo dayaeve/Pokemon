@@ -1,0 +1,66 @@
+.app_poke{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh ;
+    box-sizing: border-box;
+    background-color: #c6e3d77e;
+}
+.poke__span {
+    color: red;
+}
+.poke__p {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    align-items: center;
+    font-weight: 600;
+}
+.poke__div {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.poke__form {
+    display: flex;
+    justify-content: center;
+}
+
+.poke__input {
+    border-color: rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+.poke__button {
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #62db60bb;
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    transition: 0.1s all;
+}
+.poke__button:active {
+    transform: scale(0.98);
+}
+.poke__page {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.page__count{
+    border: 1px solid rgba(0, 0, 0, 0.101);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

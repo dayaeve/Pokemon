@@ -1,0 +1,117 @@
+.info__div {
+    z-index: 1;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-bottom: 2rem;
+    border: 2px solid rgba(212, 203, 203, 0.133);
+}    
+
+.info__header {
+    display: flex;
+    justify-content: center;
+}
+.info__img {
+    position: absolute;
+}
+.info__color {
+    margin-top: 10em;
+    width: 100%;
+    height: 125px;
+}
+.info__section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info__id {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.4em;
+    padding-bottom: 0.8em;
+}
+.info__name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+.info__ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 30%;
+    margin: auto;
+    padding-top: 0.3rem;
+}
+.info__tyha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.info__type {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.info__artype {
+    display: grid;
+    padding-bottom: 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+}
+.info__ability {
+    border: 1px solid rgba(102, 95, 95, 0.073);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.info__status {
+    display: flex;
+    justify-content: space-between;
+}
+.info__name1 {
+    display: flex;
+    justify-content: left;
+}
+.info__span {
+    display: flex;
+    justify-content: end;
+
+}
+.info__bar {
+    width: 100%;
+    height:30px;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #e68f1e97 133.18%);
+}
+.poke__moveh2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.pokeInfo__move {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid  rgba(212, 203, 203, 0.133);
+    border-top: 1rem;
+   
+}
+.poke__container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.poke__container span {
+    background-color: #e5e5e582;
+    padding: 0.5rem 1rem;
+    border-radius: 19px;
+}
+.poke__typemove{
+    display: flex;
+    flex-direction: column;
+}
+    
+

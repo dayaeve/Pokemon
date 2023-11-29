@@ -1,0 +1,12 @@
+
+.select__value {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+    outline: none;
+}
